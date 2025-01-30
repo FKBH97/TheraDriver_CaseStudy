@@ -6,7 +6,7 @@ import time
 
 # Airtable API setup for ticket creation (main database)
 AIRTABLE_API_URL = 'https://api.airtable.com/v0/apphAso2UOGzzCCta/Tickets'
-AIRTABLE_API_KEY = 'patypDr4Jcxgeo5sg.2765eba40c5171f435e9e68ceb0d36bdc0a2a15eccf5b3ac00492f906c21d431'
+AIRTABLE_API_KEY = ''
 HEADERS = {'Authorization': f'Bearer {AIRTABLE_API_KEY}', 'Content-Type': 'application/json'}
 
 # Define issue buckets and rules
